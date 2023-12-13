@@ -1,3 +1,4 @@
+@GroupMgmt
 Feature: As an admin user, I can create groups and assign existing users to different groups
   #1.login in as an admin
   Scenario Outline: Login in as an admin user and create new groups
