@@ -87,27 +87,5 @@
             <version>2.12.0</version>
         </dependency>
     </dependencies>
-         <build>
-   <plugins>
-      <plugin>
-         <groupId>io.cucumber</groupId>
-         <artifactId>cucumber-maven-plugin</artifactId>
-         <version>5.7.0</version>
-         <executions>
-            <execution>
-               <id>execution</id>
-               <phase>test</phase>
-               <goals>
-                  <goal>test</goal>
-               </goals>
-               <configuration>
-                  <tags>${GroupMgmt}</tags>
-               </configuration>
-            </execution>
-         </executions>
-      </plugin>
-   </plugins>
-</build>
 
-         
 </project>
