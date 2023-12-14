@@ -9,7 +9,9 @@ import apiTest.drivers.DriverFactory;
 @CucumberOptions(
         features = {"src/test/resources/feature/api/groupMgmtAPI.feature"
         },
-        glue = {"apiTest.stepDef"}
+        glue = {"apiTest.stepDef"},
+        plugin = "json:target/cucumber.json"
+
 )
 public class GroupMgmtTestRunner extends AbstractTestNGCucumberTests {
 
